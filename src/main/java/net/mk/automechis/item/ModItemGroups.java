@@ -8,16 +8,21 @@ import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import net.mk.automechis.Automechis;
+import net.mk.automechis.block.ModBlocks;
 
 public class ModItemGroups {
 
     public static final ItemGroup GEAR_GROUP = Registry.register(Registries.ITEM_GROUP,
-            new Identifier(Automechis.MOD_ID, "iron_gear"),
-            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.iron_gear"))
-                    .icon(() -> new ItemStack(ModItems.IRON_GEAR)).entries((displayContext, entries) -> {
+            new Identifier(Automechis.MOD_ID, "gear"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.gear"))
+                    .icon(() -> new ItemStack(ModItems.GEAR)).entries(
 
-                        entries.add(ModItems.RUBY);
-                        entries.add(ModItems.IRON_GEAR);
+                            (displayContext, entries) -> {
+
+                        entries.add(ModItems.GEAR);
+                        entries.add(ModItems.SPRING);
+
+                        entries.add(ModBlocks.INDUSTRIAL_IRON_BLOCK);
 
                     }).build());
 

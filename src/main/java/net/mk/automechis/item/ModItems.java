@@ -12,12 +12,12 @@ import net.mk.automechis.Automechis;
 
 public class ModItems {
 
-    public static final Item RUBY = registerItem("ruby", new Item(new FabricItemSettings()));
-    public static final Item IRON_GEAR = registerItem("iron_gear", new Item(new FabricItemSettings()));
+    public static final Item GEAR = registerItem("gear", new Item(new FabricItemSettings()));
+    public static final Item SPRING = registerItem("spring", new Item(new FabricItemSettings()));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
-        entries.add(RUBY);
-        entries.add(IRON_GEAR);
+        entries.add(GEAR);
+        entries.add(SPRING);
     }
 
     private static Item registerItem(String name, Item item) {

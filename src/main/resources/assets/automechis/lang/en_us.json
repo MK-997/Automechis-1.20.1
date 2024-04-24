@@ -1,6 +1,8 @@
 {
-  "item.automechis.ruby": "Ruby",
-  "item.automechis.iron_gear": "Iron Gear",
+  "item.automechis.gear": "Gear",
+  "item.automechis.spring": "Spring",
 
-  "itemgroup.iron_gear": "Automechis Item Group"
+  "block.automechis.industrial_iron_block": "Industrial Iron Block",
+
+  "itemgroup.gear": "Automechis Item Group"
 }

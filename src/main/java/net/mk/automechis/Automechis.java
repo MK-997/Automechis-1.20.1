@@ -2,6 +2,7 @@ package net.mk.automechis;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.mk.automechis.block.ModBlocks;
 import net.mk.automechis.item.ModItemGroups;
 import net.mk.automechis.item.ModItems;
 import org.slf4j.Logger;
@@ -15,5 +16,6 @@ public class Automechis implements ModInitializer {
 	public void onInitialize() {
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
