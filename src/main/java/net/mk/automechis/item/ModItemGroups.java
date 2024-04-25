@@ -21,6 +21,8 @@ public class ModItemGroups {
 
                         entries.add(ModItems.GEAR);
                         entries.add(ModItems.SPRING);
+                        entries.add(ModItems.IRON_ROD);
+                        entries.add(ModItems.INDUSTRIAL_IRON_INGOT);
 
                         entries.add(ModBlocks.INDUSTRIAL_IRON_BLOCK);
 

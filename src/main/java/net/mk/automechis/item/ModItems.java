@@ -14,10 +14,14 @@ public class ModItems {
 
     public static final Item GEAR = registerItem("gear", new Item(new FabricItemSettings()));
     public static final Item SPRING = registerItem("spring", new Item(new FabricItemSettings()));
+    public static final Item IRON_ROD = registerItem("iron_rod", new Item(new FabricItemSettings()));
+    public static final Item INDUSTRIAL_IRON_INGOT = registerItem("industrial_iron_ingot", new Item(new FabricItemSettings()));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(GEAR);
         entries.add(SPRING);
+        entries.add(IRON_ROD);
+        entries.add(INDUSTRIAL_IRON_INGOT);
     }
 
     private static Item registerItem(String name, Item item) {

@@ -1,6 +1,9 @@
 {
   "item.automechis.gear": "Gear",
   "item.automechis.spring": "Spring",
+  "item.automechis.iron_rod": "Iron Rod",
+  "item.automechis.industrial_iron_ingot": "Industrial Iron Ingot",
+
 
   "block.automechis.industrial_iron_block": "Industrial Iron Block",
 
