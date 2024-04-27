@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:copper_ingot"
+    },
+    {
+      "item": "automechis:copper_nugget"
+    },
+    {
+      "item": "automechis:copper_rod"
+    }
+  ],
+  "result": {
+    "item": "automechis:industrial_copper_ingot"
+  }
+}

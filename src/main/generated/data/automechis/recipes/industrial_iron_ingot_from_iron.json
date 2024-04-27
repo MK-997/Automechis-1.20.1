@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:iron_nugget"
+    },
+    {
+      "item": "automechis:iron_rod"
+    }
+  ],
+  "result": {
+    "item": "automechis:industrial_iron_ingot"
+  }
+}

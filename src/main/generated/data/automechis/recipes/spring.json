@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "N": {
+      "item": "minecraft:iron_nugget"
+    },
+    "R": {
+      "item": "automechis:iron_rod"
+    }
+  },
+  "pattern": [
+    "NRN"
+  ],
+  "result": {
+    "item": "automechis:spring"
+  },
+  "show_notification": true
+}
