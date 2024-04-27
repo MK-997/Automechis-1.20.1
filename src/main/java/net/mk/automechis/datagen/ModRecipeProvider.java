@@ -25,7 +25,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, ModItems.INDUSTRIAL_IRON_INGOT,
                 RecipeCategory.BUILDING_BLOCKS, ModBlocks.INDUSTRIAL_IRON_BLOCK);
         offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, ModItems.INDUSTRIAL_COPPER_INGOT,
-                RecipeCategory.BUILDING_BLOCKS, ModBlocks.INDUSTRIAL_COPPER_BLOCK);
+                RecipeCategory.MISC, ModBlocks.INDUSTRIAL_COPPER_BLOCK);
 
         offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, ModItems.COPPER_NUGGET,
                 RecipeCategory.MISC, Items.COPPER_INGOT);
