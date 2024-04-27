@@ -16,6 +16,7 @@ public class ModModelProvider extends FabricModelProvider {
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.INDUSTRIAL_IRON_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.INDUSTRIAL_COPPER_BLOCK);
     }
 
     @Override
@@ -24,5 +25,8 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.GEAR, Models.GENERATED);
         itemModelGenerator.register(ModItems.SPRING, Models.GENERATED);
         itemModelGenerator.register(ModItems.IRON_ROD, Models.GENERATED);
+        itemModelGenerator.register(ModItems.COPPER_NUGGET, Models.GENERATED);
+        itemModelGenerator.register(ModItems.COPPER_ROD, Models.GENERATED);
+        itemModelGenerator.register(ModItems.INDUSTRIAL_COPPER_INGOT, Models.GENERATED);
     }
 }

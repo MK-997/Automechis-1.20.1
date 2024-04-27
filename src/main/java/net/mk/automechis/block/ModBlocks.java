@@ -15,6 +15,8 @@ public class ModBlocks {
 
     public static final Block INDUSTRIAL_IRON_BLOCK = registerBlock("industrial_iron_block",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+    public static final Block INDUSTRIAL_COPPER_BLOCK = registerBlock("industrial_copper_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.COPPER_BLOCK)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

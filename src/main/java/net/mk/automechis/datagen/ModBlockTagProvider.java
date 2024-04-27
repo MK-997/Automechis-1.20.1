@@ -17,10 +17,12 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
     protected void configure(RegistryWrapper.WrapperLookup arg) {
 
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
-                .add(ModBlocks.INDUSTRIAL_IRON_BLOCK);
+                .add(ModBlocks.INDUSTRIAL_IRON_BLOCK)
+                .add(ModBlocks.INDUSTRIAL_COPPER_BLOCK);
 
         getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL)
-                .add((ModBlocks.INDUSTRIAL_IRON_BLOCK));
+                .add((ModBlocks.INDUSTRIAL_IRON_BLOCK))
+                .add((ModBlocks.INDUSTRIAL_COPPER_BLOCK));
 
 
     }

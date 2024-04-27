@@ -3,9 +3,13 @@
   "item.automechis.spring": "Spring",
   "item.automechis.iron_rod": "Iron Rod",
   "item.automechis.industrial_iron_ingot": "Industrial Iron Ingot",
+  "item.automechis.copper_nugget": "Copper Nugget",
+  "item.automechis.copper_rod": "Copper Rod",
+  "item.automechis.industrial_copper_ingot": "Industrial Copper Ingot",
 
 
   "block.automechis.industrial_iron_block": "Industrial Iron Block",
+  "block.automechis.industrial_copper_block": "Industrial Copper Block",
 
   "itemgroup.gear": "Automechis Item Group"
 }

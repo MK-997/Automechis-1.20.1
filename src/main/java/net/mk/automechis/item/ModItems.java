@@ -16,6 +16,10 @@ public class ModItems {
     public static final Item SPRING = registerItem("spring", new Item(new FabricItemSettings()));
     public static final Item IRON_ROD = registerItem("iron_rod", new Item(new FabricItemSettings()));
     public static final Item INDUSTRIAL_IRON_INGOT = registerItem("industrial_iron_ingot", new Item(new FabricItemSettings()));
+    public static final Item COPPER_NUGGET = registerItem("copper_nugget", new Item(new FabricItemSettings()));
+    public static final Item COPPER_ROD = registerItem("copper_rod", new Item(new FabricItemSettings()));
+    public static final Item INDUSTRIAL_COPPER_INGOT = registerItem("industrial_copper_ingot", new Item(new FabricItemSettings()));
+
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(GEAR);

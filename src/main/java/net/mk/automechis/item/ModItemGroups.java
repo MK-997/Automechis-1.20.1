@@ -23,8 +23,12 @@ public class ModItemGroups {
                         entries.add(ModItems.SPRING);
                         entries.add(ModItems.IRON_ROD);
                         entries.add(ModItems.INDUSTRIAL_IRON_INGOT);
+                        entries.add(ModItems.COPPER_NUGGET);
+                        entries.add(ModItems.COPPER_ROD);
+                        entries.add(ModItems.INDUSTRIAL_COPPER_INGOT);
 
                         entries.add(ModBlocks.INDUSTRIAL_IRON_BLOCK);
+                        entries.add(ModBlocks.INDUSTRIAL_COPPER_BLOCK);
 
                     }).build());
 
